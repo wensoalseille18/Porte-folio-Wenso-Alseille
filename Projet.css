@@ -1,0 +1,216 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+ul
+{
+    margin: 0;
+    padding: 0;
+}
+
+nav
+{
+    background-color: rgb(211, 146, 7);
+    width: 100%;
+    position: fixed;
+    opacity: 0.9;
+    height: 40px;
+    border-radius: 20px;
+
+}
+
+nav li
+{
+    float: right;
+    font-size: 1.5em; 
+    font-style: oblique;
+}
+
+#Per
+{
+    float: left;
+    font-family: Edwardian Script ITC;
+    font-weight: bold;
+    color: floralwhite;
+    text-shadow: 2px 1px 2px rgb(0, 0, 0);
+    font-size: 300%;
+    margin-top: 1%;
+}
+
+header li a
+{
+    text-align: center;
+    padding: 18px 16px;
+    display: block;
+}
+
+header h5
+{
+    text-align: center;
+    font-family: Edwardian Script ITC;
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    text-shadow: 1px 2px 2px rgb(206, 64, 64);
+    margin-top: 270px;
+}
+
+header
+{
+    overflow: hidden;
+}
+
+nav ul
+{
+    margin-right: 20px;
+}
+
+nav ul li
+{
+    list-style: none;
+    display: inline-block;
+    line-height: 15px;
+    display: block;
+
+}
+
+nav ul li a 
+{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 16px;
+    transition: 4s;
+}
+
+
+nav ul li a:hover
+{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 840px){
+    nav{
+        background-color: red;
+        height: 80px;
+    }
+
+    #Per{
+        display: block;
+        width: 100%;
+        margin: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 576px){
+    nav{
+        background-color: green;
+        height: 100px;
+    }
+}
+@media screen and (max-width: 343px){
+    nav{
+        background-color: rgb(116, 167, 116);
+        height: 150px;
+    }
+}
+@media screen and (max-width: 1040px){
+    #Perl2{
+        background: url("./Site/Nuit.png") no-repeat fixed 50% 50%;
+        height: 900px;
+        background-size: cover;
+        overflow: hidden;
+    }
+    #Pre{
+        display: block;
+        width: 100%;
+        margin: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    
+}
+
+#Diaporama1 {
+    width: 100%;
+    height: 700px;
+    background-image: url("Gele 2.jpg"); 
+    background-size: cover;        
+    background-position: center;  
+    background-repeat: no-repeat;  
+    overflow: hidden;
+}
+#perl2
+{
+    background: url("Nuit(1).png") no-repeat fixed 50% 50%;
+    height: 900px;
+    background-size: cover;
+    overflow: hidden;
+}
+
+h1
+{
+    text-align: center;
+    font-family: Snap ITC;
+    padding: 2%;
+    margin: 8%;
+    color: rgb(247, 247, 247);
+    font-size: 500%;
+    text-shadow: rgb(230, 85, 85);
+}
+#trait2
+{ 
+    height: 1px;
+    width: 25%;
+    margin: -3px auto;
+    background-color: rgb(255, 0, 0);
+}
+#Pre
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 180%;
+    color: rgb(0, 0, 0);
+    margin: 2px;
+}
+#Pre
+{
+    background-color: darkgray ;
+    opacity: 0.8;
+}
+
+footer
+{
+    color: #000000;
+    background-color: violet;
+    overflow: hidden;
+}
+
+#Visi
+{
+    text-align: center;
+    text-decoration: rgb(0, 0, 0);
+    font-size: 3em;
+}
+a
+{
+    display: inline-block;
+    text-align: center;
+    padding: 9px;
+    font-size: 2em;
+    color: #000000;
+}
+#icons
+{
+    text-align: center;
+    list-style: none;
+}
+#copyright
+{
+    float:right;
+}

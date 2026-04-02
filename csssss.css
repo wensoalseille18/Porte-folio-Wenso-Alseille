@@ -320,8 +320,6 @@ nav {
     }
 
 @media screen and (max-width: 900px) {
-   
-
     .droite {
     position: absolute;
     top: 60px;
@@ -568,7 +566,7 @@ nav {
     }
 
     .presentation.colorini h1{
-        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
         
     }
 

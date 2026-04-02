@@ -13,9 +13,11 @@ window.addEventListener('load', () => {
         }, 300);
     });
     
-  burger.addEventListener("click", () => {
-    nav.classList.toggle("active");
-  });
+const burger = document.querySelector(".burger");
+const menu = document.querySelector(".droite");
+burger.addEventListener("click", () => {
+  menu.classList.toggle("active");
+});
 });
 
 

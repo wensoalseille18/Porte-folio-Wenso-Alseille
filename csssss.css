@@ -491,6 +491,7 @@ nav {
 
 @media screen and (max-width: 600px) {
    .droite {
+    display: none;
     position: absolute;
     top: 60px;
     right: -220px;
